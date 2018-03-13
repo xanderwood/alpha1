@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+<html>
+<body bgcolor="white">
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <link type="text/css" href="dropdown menu.css">
+  </div>
+</div>
+<center><img src="ba1.jpg" width="400" height="250" border="0">
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
-You can use the [editor on GitHub](https://github.com/xanderwood/alpha1/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="ba2.jpg" style="width:100%">
+    <div class="text">Front of Biddick Academy</div>
+  </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="ba3.jpg" style="width:100%">
+    <div class="text">Biddick Academy Students</div>
+  </div>
 
-### Markdown
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="ba4.jpg" style="width:100%">
+    <div class="text">Birds Eye View of Biddick Academy</div>
+  </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
 
-```markdown
-Syntax highlighted code block
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<h1 font-size=50px><font face="verdana">Welcome to Biddick Academy</h1>
+<p font-size=25px><font face="verdana">Our Year 9 Parents Evening is on Thursday 22nd March 2018.</p>
+<h3 font size=40px><font face="verdana"> Upcoming Events </h3>
+<p> 22 March - Parents Evening & Curriculum Evening <br> 5:00PM - 8:00PM </br></p>
+<h2> <font color="red"><a href="file:///C:/Users/alexs/Downloads/139839__2.PDF"> "Changes in the way the school is led and managed have led to considerable improvements in achievement and teaching" - Ofsted</a></font></h2>
+<div class="mySlides">
+  <img src="home-box-2.jpg">
+  <div class="text"><a href="http://www.biddickacademy.com/assets/Biddick-Academy-Prospectus-2015-2016-proof-6-low-quality.pdf">View our Prospectus</div>
+</div>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xanderwood/alpha1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body
+</html>
